@@ -1,4 +1,4 @@
-# oraclejet-tooling
+# eslint-config-oraclejet
 
 You may not use the identified files except in compliance with the
 Universal Permissive License (UPL), Version 1.0 (the "License.")
