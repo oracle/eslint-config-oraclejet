@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-oraclejet",
+  "version": "3.0.0",
+  "license": "UPL-1.0",
+  "description": "JET Coding standards eslint config files",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],  
+  "homepage": "http://oraclejet.org",
+  "files": [
+    "es5",
+    "es6",
+    "*.js"
+  ],
+  "dependencies": 
+  {  
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "devDependencies":
+  {
+    "fs-extra": "^2.0.0"
+  },
+  "jetdocversion": "300"
+}
