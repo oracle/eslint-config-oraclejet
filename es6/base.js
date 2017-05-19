@@ -10,13 +10,12 @@ module.exports = {
     "rules": {
         "comma-dangle": "off",
         "no-underscore-dangle": "off",
-        "vars-on-top": "off",
         "func-names": "off",
-	      "linebreak-style": "off",
-	      "no-console" : "off",
-	      "strict" : "off",
-	      "import/no-unresolved" : [2, {ignore: ['oraclejet-tooling']}], // since oraclejet-tooling is defined as a url, we need it in the ignore list.
-	      "no-use-before-define" : ["error", {"functions" : false, "classes" : true}],
-        "no-plusplus": ["off", {"allowForLoopAfterthoughts": true }] // allow ++ in loops
+        "import/no-unresolved" : "off",
+        "linebreak-style": "off",
+        "no-console" : "off",
+        "no-plusplus": ["error", {"allowForLoopAfterthoughts": true }],
+        "no-use-before-define" : ["error", {"functions" : false, "classes" : true}],
+        "strict" : "off"
     }
 };

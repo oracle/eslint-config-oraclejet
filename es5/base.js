@@ -18,21 +18,12 @@ module.exports = {
     },
     "rules": {
         "comma-dangle": "off",
-        "no-underscore-dangle": "off", // JET closure complier uses leading underscores to identify private methods
-        "vars-on-top": "off", // anti-pattern
-        "quote-props": "off", // JET components explictly quote properties to avoid closure-compiler transformations.
-        "dot-notation": "off", // related to quote-props
+        "dot-notation": "off",
         "func-names": "off",
-
-        "spaced-comment": ["warn", "always", {
-            "line": {
-                "markers" : ["/"],
-                "exceptions" : ["/"],
-            },
-            "block": {
-                "markers" : ["!"],
-                "exceptions" : ["*"]
-            }
-        }], 
+        "linebreak-style": "off",
+        "no-use-before-define" : ["error", {"functions" : false, "classes" : true}],
+        "no-plusplus": ["error", {"allowForLoopAfterthoughts": true }],
+        "no-underscore-dangle": "off", 
+        "quote-props": "off"
     }
 }
