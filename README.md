@@ -1,4 +1,4 @@
-# eslint-config-oraclejet 3.1.0
+# eslint-config-oraclejet 3.2.0
 
 This package contains the ESLint configurations used by the Oracle JET project.  These configurations come in two flavors:
 
@@ -93,7 +93,7 @@ The Airbnb ESLint config forbids the use of 'use strict' as Airbnb relies on [Ba
 
 _ESLint rule change_: [comma-dangle](http://eslint.org/docs/rules/comma-dangle) is disabled.
 
-Airbnb's (ES6) style guide mandates the use of dangling commas for the purpose of having cleaner git diffs.  We find that dangling commas can be slightly less readable/more confusing for developers, so we prefer to optimize for reading over diff'ing.
+Airbnb's (ES6) style guide mandates the use of dangling commas for the purpose of having cleaner git diffs.  We find that dangling commas can be slightly less readable/more confusing for developers, so we prefer to optimize for reading over dif'fing.
 
 #### 2.4 Unresolved imports are (temporarily) allowed
 
