@@ -24,6 +24,6 @@ module.exports = {
         "no-use-before-define" : ["error", {"functions" : false, "classes" : true}],
         "no-plusplus": ["error", {"allowForLoopAfterthoughts": true }],
         "no-underscore-dangle": "off", 
-        "quote-props": "off"
+        "quote-props": "off", 
     }
 }

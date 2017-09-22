@@ -1,26 +1,28 @@
 {
-  "name": "eslint-config-oraclejet",
-  "version": "3.2.0",
+  "name": "@oracle/eslint-config-oraclejet",
+  "version": "4.0.0",
   "license": "UPL-1.0",
   "description": "JET Coding standards eslint config files",
   "keywords": [
     "eslint",
     "eslintconfig"
-  ],  
+  ],
   "homepage": "http://oraclejet.org",
   "files": [
     "es5",
     "es6",
     "*.js"
   ],
-  "dependencies": 
-  {  
-    "eslint-config-airbnb-base": "^10.0.1",
-    "eslint-plugin-import": "^2.2.0"
+  "dependencies": {
+    "eslint": "~3.19.0",
+    "eslint-config-airbnb": "~14.1.0",
+    "eslint-config-airbnb-base": "~11.1.2",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-react": "~6.10.3",
+    "eslint-plugin-jsx-a11y": "~4.0.0"
   },
-  "devDependencies":
-  {
-    "fs-extra": "^2.0.0"
+  "devDependencies": {
+    "fs-extra": "~2.1.2"
   },
-  "jetdocversion": "320"
+  "jetdocversion": "400"
 }

@@ -16,6 +16,6 @@ module.exports = {
         "no-console" : "off",
         "no-plusplus": ["error", {"allowForLoopAfterthoughts": true }],
         "no-use-before-define" : ["error", {"functions" : false, "classes" : true}],
-        "strict" : "off"
+        "strict" : "off",
     }
 };

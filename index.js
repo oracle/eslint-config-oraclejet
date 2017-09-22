@@ -5,7 +5,7 @@
 // Default config
 module.exports = {
   extends: [
-    './es6/base'
+    './es5/base'
   ].map(require.resolve),
   rules: {}
 };
