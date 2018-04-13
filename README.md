@@ -1,4 +1,4 @@
-# @oracle/eslint-config-oraclejet 4.2.0
+# @oracle/eslint-config-oraclejet 5.0.0
 
 This package contains the ESLint configurations used by the Oracle JET project.  These configurations come in two flavors:
 
@@ -128,18 +128,6 @@ Airbnb's (ES6) style guide mandates the use of dangling commas for the purpose o
 _ESLint rule change_: [import/no-unresolved](http://eslint.org/docs/rules/import/no-unresolved) is disabled.
 
 While we would like to leave this rule enabled, we are currently seeing some false positives triggered by this rule.  As such, we are temporarily disabling this while we get to the bottom of the violations.  We plan to re-enable this rule in a future version of our eslint-config-oraclejet.
-
-### 3. ES5-specific Deltas
-
-The following changes are specific to the ES5 version of the Oracle JET ESLint configuration, used by the JET runtime (browser-based) code base.  Note that our ES5 config is based on the [ES5 version of the Airbnb style guide](https://github.com/airbnb/javascript/tree/es5-deprecated/es5)
-
-#### 3.1 Quoted properties are allowed
-
-_ESLint rule change_: [quote-props](http://eslint.org/docs/rules/import/quote-props) and [dot-notation](http://eslint.org/docs/rules/dot-notation) are disabled.
-
-Like Airbnb, we strongly prefer dot notation over quoting.  However, the JET runtime code base uses quoting as a way to ensure that the Closure Compiler does not mangle certain property names.  Rather than suppress each of these violations locally each time the quoted property is referenced, we decided to disable these two ESLint rules globally.
-
-We may re-enable both of these rules in the future, and as such encourage the use of dot notation wherever possible.
 
 ## [Contributing](https://github.com/oracle/eslint-config-oraclejet/tree/master/CONTRIBUTING.md)
 Oracle JET is an open source project.  Pull Requests are currently not being accepted. See [CONTRIBUTING](https://github.com/oracle/eslint-config-oraclejet/tree/master/CONTRIBUTING.md) for details.

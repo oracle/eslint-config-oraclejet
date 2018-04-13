@@ -1,5 +1,8 @@
 ## Release Notes for eslint-config-oraclejet ##
 
+### 5.0.0
+* quote-props and dot-notation reverted to defaults for ES5
+
 ### 4.2.0
 * No changes
 
