@@ -1,4 +1,4 @@
-# @oracle/eslint-config-oraclejet 5.0.0
+# @oracle/eslint-config-oraclejet 5.1.0
 
 This package contains the ESLint configurations used by the Oracle JET project.  These configurations come in two flavors:
 
