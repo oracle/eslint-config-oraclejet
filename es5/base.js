@@ -6,9 +6,8 @@ module.exports = {
     "parserOptions": {
         "ecmaVersion": 5
     },
-    "extends": "airbnb/legacy", // use for ESLint5
+    "extends": "airbnb-base/legacy", // use for ESLint5
     "plugins": [
-        "react",
     ],
     "env": {
         "jquery": true
