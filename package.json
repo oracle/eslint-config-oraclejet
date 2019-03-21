@@ -1,6 +1,6 @@
 {
   "name": "@oracle/eslint-config-oraclejet",
-  "version": "6.1.0",
+  "version": "6.2.0",
   "scripts": {"build": "node build/build.js"},
   "license": "UPL-1.0",
   "description": "JET Coding standards eslint config files",
