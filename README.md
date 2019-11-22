@@ -1,4 +1,4 @@
-# @oracle/eslint-config-oraclejet 7.2.0
+# @oracle/eslint-config-oraclejet 8.0.0
 
 This package contains the ESLint configurations used by the Oracle JET project.  These configurations come in two flavors:
 
@@ -129,8 +129,9 @@ _ESLint rule change_: [import/no-unresolved](http://eslint.org/docs/rules/import
 
 While we would like to leave this rule enabled, we are currently seeing some false positives triggered by this rule.  As such, we are temporarily disabling this while we get to the bottom of the violations.  We plan to re-enable this rule in a future version of our eslint-config-oraclejet.
 
-## [Contributing](https://github.com/oracle/eslint-config-oraclejet/tree/master/CONTRIBUTING.md)
-Oracle JET is an open source project.  Pull Requests are currently not being accepted. See [CONTRIBUTING](https://github.com/oracle/eslint-config-oraclejet/tree/master/CONTRIBUTING.md) for details.
+## [Contributing](https://github.com/oracle/eslint-config-oraclejet/blob/master/CONTRIBUTING.md)
+Oracle JET is an open source project.  Pull Requests are currently not being accepted. See [CONTRIBUTING](https://github.com/oracle/eslint-config-oraclejet/blob/master/CONTRIBUTING.md) for details.
 
-## [License](https://github.com/oracle/eslint-config-oraclejet/tree/master/LICENSE.md)
-Copyright (c) 2014, 2019 Oracle and/or its affiliates The Universal Permissive License (UPL), Version 1.0
+## [License](https://github.com/oracle/eslint-config-oraclejet/blob/master/LICENSE)
+Copyright (c) 2019 Oracle and/or its affiliates and released  under the 
+[Universal Permissive License (UPL)](https://oss.oracle.com/licenses/upl/), Version 1.0
