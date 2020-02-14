@@ -1,4 +1,4 @@
-# @oracle/eslint-config-oraclejet 8.0.0
+# @oracle/eslint-config-oraclejet 8.1.0
 
 This package contains the ESLint configurations used by the Oracle JET project.  These configurations come in two flavors:
 
@@ -133,5 +133,5 @@ While we would like to leave this rule enabled, we are currently seeing some fal
 Oracle JET is an open source project.  Pull Requests are currently not being accepted. See [CONTRIBUTING](https://github.com/oracle/eslint-config-oraclejet/blob/master/CONTRIBUTING.md) for details.
 
 ## [License](https://github.com/oracle/eslint-config-oraclejet/blob/master/LICENSE)
-Copyright (c) 2019 Oracle and/or its affiliates and released  under the 
+Copyright (c) 2020 Oracle and/or its affiliates and released  under the 
 [Universal Permissive License (UPL)](https://oss.oracle.com/licenses/upl/), Version 1.0
