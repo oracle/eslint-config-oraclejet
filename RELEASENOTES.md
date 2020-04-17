@@ -1,6 +1,6 @@
 ## Release Notes for eslint-config-oraclejet ##
 
-### 8.1.0
+### 8.2.0
 * No changes
 
 ### 5.2.0
