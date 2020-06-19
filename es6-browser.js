@@ -4,10 +4,10 @@
   as shown at https://oss.oracle.com/licenses/upl/
 
 */
-// Default config
+// Config for es6-browser
 module.exports = {
   extends: [
-    './es5/base'
+    './es6-browser/base'
   ].map(require.resolve),
   rules: {}
 };

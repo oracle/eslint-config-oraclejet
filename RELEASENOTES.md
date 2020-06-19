@@ -1,7 +1,7 @@
 ## Release Notes for eslint-config-oraclejet ##
 
-### 8.3.0
-* No changes
+### 9.0.0
+* Added es6-browser for browser-based es6 code
 
 ### 5.2.0
 * No changes
