@@ -1,5 +1,8 @@
 ## Release Notes for eslint-config-oraclejet ##
 
+### 10.0.0
+* Updated eslint-config-airbnb-base
+
 ### 9.0.0
 * Added es6-browser for browser-based es6 code
 

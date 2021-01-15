@@ -1,5 +1,5 @@
 /**
-  Copyright (c) 2015, 2020, Oracle and/or its affiliates.
+  Copyright (c) 2015, 2021, Oracle and/or its affiliates.
   Licensed under The Universal Permissive License (UPL), Version 1.0
   as shown at https://oss.oracle.com/licenses/upl/
 
@@ -20,6 +20,7 @@ module.exports = {
     "rules": {
         "comma-dangle": "off",
         "func-names": "off",
+        "function-paren-newline": "off",
         "linebreak-style": "off",
         "no-use-before-define" : ["error", {"functions" : false, "classes" : true}],
         "no-plusplus": ["error", {"allowForLoopAfterthoughts": true }],
@@ -31,6 +32,20 @@ module.exports = {
           ignoreRegExpLiterals: true,
           ignoreStrings: true,
           ignoreTemplateLiterals: true,
-        }],        
+        }],
+        "prefer-promise-reject-errors": "off",
+        "object-curly-newline": "off",
+        'spaced-comment': ['error', 'always', {
+            line: {
+              exceptions: ['-', '+'],
+              markers: ['=', '!'], // space here to support sprockets directives
+            },
+            block: {
+              exceptions: ['-', '+'],
+              markers: ['=', '!'], // space here to support sprockets directives
+              balanced: false,
+            }
+          }],
+        "switch-colon-spacing": "off",
     }
 }
