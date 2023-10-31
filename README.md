@@ -129,9 +129,16 @@ _ESLint rule change_: [import/no-unresolved](http://eslint.org/docs/rules/import
 
 While we would like to leave this rule enabled, we are currently seeing some false positives triggered by this rule.  As such, we are temporarily disabling this while we get to the bottom of the violations.  We plan to re-enable this rule in a future version of our eslint-config-oraclejet.
 
-## [Contributing](https://github.com/oracle/eslint-config-oraclejet/blob/master/CONTRIBUTING.md)
-Oracle JET is an open source project.  Pull Requests are currently not being accepted. See [CONTRIBUTING](https://github.com/oracle/eslint-config-oraclejet/blob/master/CONTRIBUTING.md) for details.
+## Security
 
-## [License](https://github.com/oracle/eslint-config-oraclejet/blob/master/LICENSE)
-Copyright (c) 2022 Oracle and/or its affiliates and released  under the 
-[Universal Permissive License (UPL)](https://oss.oracle.com/licenses/upl/), Version 1.0
+Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process
+
+## Contributing
+
+This project is not accepting external contributions at this time. For bugs or enhancement requests, please file a GitHub issue unless it’s security related. When filing a bug remember that the better written the bug is, the more likely it is to be fixed. If you think you’ve found a security vulnerability, do not raise a GitHub issue and follow the instructions in our [security policy](./SECURITY.md).
+
+## License
+
+Copyright (c) 2022, 2023 Oracle and/or its affiliates
+Released under the Universal Permissive License v1.0 as shown at
+<https://oss.oracle.com/licenses/upl/>.
